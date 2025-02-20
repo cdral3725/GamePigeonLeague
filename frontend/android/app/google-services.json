@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "499217642338",
+    "project_id": "gamepigeonleague",
+    "storage_bucket": "gamepigeonleague.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499217642338:android:a0485cad37dc01ba03323b",
+        "android_client_info": {
+          "package_name": "com.example.frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8t3N43qX1CDyRKxe_fy1o1buBYxO168"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

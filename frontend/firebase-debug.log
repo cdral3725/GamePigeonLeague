@@ -1,0 +1,23 @@
+[debug] [2025-02-20T21:57:12.011Z] ----------------------------------------------------------------------
+[debug] [2025-02-20T21:57:12.014Z] Command:       /usr/local/bin/firebase /home/cdral/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase apps:list ios --json --project=gamepigeonleague
+[debug] [2025-02-20T21:57:12.015Z] CLI Version:   13.31.2
+[debug] [2025-02-20T21:57:12.015Z] Platform:      linux
+[debug] [2025-02-20T21:57:12.015Z] Node Version:  v18.5.0
+[debug] [2025-02-20T21:57:12.016Z] Time:          Thu Feb 20 2025 14:57:12 GMT-0700 (Mountain Standard Time)
+[debug] [2025-02-20T21:57:12.016Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-20T21:57:12.149Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-02-20T21:57:12.151Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-20T21:57:12.152Z] > authorizing via signed-in user (dralcolind@gmail.com)
+[debug] [2025-02-20T21:57:12.154Z] Checked if tokens are valid: true, expires at: 1740092195792
+[debug] [2025-02-20T21:57:12.154Z] Checked if tokens are valid: true, expires at: 1740092195792
+[debug] [2025-02-20T21:57:12.155Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gamepigeonleague/iosApps pageSize=100
+[debug] [2025-02-20T21:57:12.634Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gamepigeonleague/iosApps 200
+[debug] [2025-02-20T21:57:12.634Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gamepigeonleague/iosApps {"apps":[{"name":"projects/gamepigeonleague/iosApps/1:499217642338:ios:37f0b1c853907c8303323b","appId":"1:499217642338:ios:37f0b1c853907c8303323b","displayName":"frontend (ios)","projectId":"gamepigeonleague","bundleId":"com.example.frontend","apiKeyId":"c95db755-03a9-40c6-a3e3-dced3e9c2216","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_d799e893-bf51-44cb-929d-6240417ea2cd"}]}
+[info] ┌──────────────────┬───────────────────────────────────────────┬──────────┐
+│ App Display Name │ App ID                                    │ Platform │
+├──────────────────┼───────────────────────────────────────────┼──────────┤
+│ frontend (ios)   │ 1:499217642338:ios:37f0b1c853907c8303323b │ IOS      │
+└──────────────────┴───────────────────────────────────────────┴──────────┘
+[info] 
+[info] 1 app(s) total.
