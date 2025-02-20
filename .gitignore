@@ -1,0 +1,6 @@
+node_modules/
+.env
+.DS_Store
+.vscode/
+.idea/
+*.swp  # Prevents vi/vim swap files from being added
