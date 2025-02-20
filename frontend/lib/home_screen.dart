@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:frontend/profile_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;
